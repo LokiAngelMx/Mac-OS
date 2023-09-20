@@ -11,6 +11,11 @@
 		7F919CB12ABA22E700CB214B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F919CB02ABA22E700CB214B /* ViewController.swift */; };
 		7F919CB32ABA22E800CB214B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F919CB22ABA22E800CB214B /* Assets.xcassets */; };
 		7F919CB62ABA22E800CB214B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F919CB42ABA22E800CB214B /* Main.storyboard */; };
+		7F919CC02ABA7EF100CB214B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F919CBF2ABA7EF100CB214B /* MainViewController.swift */; };
+		7F919CC22ABA819E00CB214B /* SheetNameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F919CC12ABA819E00CB214B /* SheetNameController.swift */; };
+		7F919CC42ABA83F200CB214B /* ModalMailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F919CC32ABA83F200CB214B /* ModalMailController.swift */; };
+		7F919CC62ABA847900CB214B /* ModalCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F919CC52ABA847900CB214B /* ModalCodeController.swift */; };
+		7F919CC82ABAA9CC00CB214B /* SheetPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F919CC72ABAA9CC00CB214B /* SheetPasswordController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		7F919CB22ABA22E800CB214B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F919CB52ABA22E800CB214B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F919CB72ABA22E800CB214B /* practicaNavegacion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = practicaNavegacion.entitlements; sourceTree = "<group>"; };
+		7F919CBF2ABA7EF100CB214B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7F919CC12ABA819E00CB214B /* SheetNameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetNameController.swift; sourceTree = "<group>"; };
+		7F919CC32ABA83F200CB214B /* ModalMailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalMailController.swift; sourceTree = "<group>"; };
+		7F919CC52ABA847900CB214B /* ModalCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalCodeController.swift; sourceTree = "<group>"; };
+		7F919CC72ABAA9CC00CB214B /* SheetPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetPasswordController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				7F919CB22ABA22E800CB214B /* Assets.xcassets */,
 				7F919CB42ABA22E800CB214B /* Main.storyboard */,
 				7F919CB72ABA22E800CB214B /* practicaNavegacion.entitlements */,
+				7F919CBF2ABA7EF100CB214B /* MainViewController.swift */,
+				7F919CC12ABA819E00CB214B /* SheetNameController.swift */,
+				7F919CC32ABA83F200CB214B /* ModalMailController.swift */,
+				7F919CC52ABA847900CB214B /* ModalCodeController.swift */,
+				7F919CC72ABAA9CC00CB214B /* SheetPasswordController.swift */,
 			);
 			path = practicaNavegacion;
 			sourceTree = "<group>";
@@ -131,7 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F919CC82ABAA9CC00CB214B /* SheetPasswordController.swift in Sources */,
+				7F919CC62ABA847900CB214B /* ModalCodeController.swift in Sources */,
+				7F919CC02ABA7EF100CB214B /* MainViewController.swift in Sources */,
 				7F919CB12ABA22E700CB214B /* ViewController.swift in Sources */,
+				7F919CC42ABA83F200CB214B /* ModalMailController.swift in Sources */,
+				7F919CC22ABA819E00CB214B /* SheetNameController.swift in Sources */,
 				7F919CAF2ABA22E700CB214B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

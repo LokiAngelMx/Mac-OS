@@ -1,26 +1,21 @@
-//
-//  ViewController.swift
-//  practicaNavegacion
-//
-//  Created by Angel García on 19/09/23.
-//
-
 import Cocoa
 
 class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-
+    
+    @IBAction func goToMain(_ sender: Any) {
+        let mainWindowController = storyboard?.instantiateController(withIdentifier: "mainWindow") as? NSWindowController
+        
+        mainWindowController?.showWindow(mainWindowController)
+        
+        self.view.window?.close()
+    }
+    
     override var representedObject: Any? {
         didSet {
-        // Update the view, if already loaded.
         }
     }
-
-
 }
-

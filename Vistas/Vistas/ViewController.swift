@@ -4,7 +4,6 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
 
     @IBAction func goToDashboard(_ sender: Any) {
@@ -17,9 +16,6 @@ class ViewController: NSViewController {
     
     override var representedObject: Any? {
         didSet {
-        
         }
     }
-    
-    
 }
