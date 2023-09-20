@@ -1054,5 +1054,18 @@
             </objects>
             <point key="canvasLocation" x="85" y="810"/>
         </scene>
+        <!--New View Controller-->
+        <scene sceneID="oLO-5t-wHB">
+            <objects>
+                <viewController storyboardIdentifier="NewViewController" id="baG-aX-8By" customClass="NewViewController" customModule="Calculadora" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="FI6-Aq-4Zi">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="MzV-0h-lFH" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="300" y="1332"/>
+        </scene>
     </scenes>
 </document>

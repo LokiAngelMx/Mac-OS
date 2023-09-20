@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F52956A2ABB6346002A70AA /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5295692ABB6346002A70AA /* NewViewController.swift */; };
 		7F7D31F12AB22BD300D995C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D31F02AB22BD300D995C7 /* AppDelegate.swift */; };
 		7F7D31F32AB22BD300D995C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D31F22AB22BD300D995C7 /* ViewController.swift */; };
 		7F7D31F52AB22BD400D995C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F7D31F42AB22BD400D995C7 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F5295692ABB6346002A70AA /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		7F7D31ED2AB22BD300D995C7 /* Calculadora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculadora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F7D31F02AB22BD300D995C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F7D31F22AB22BD300D995C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				7F7D31F42AB22BD400D995C7 /* Assets.xcassets */,
 				7F7D31F62AB22BD400D995C7 /* Main.storyboard */,
 				7F7D31F92AB22BD400D995C7 /* Calculadora.entitlements */,
+				7F5295692ABB6346002A70AA /* NewViewController.swift */,
 			);
 			path = Calculadora;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F52956A2ABB6346002A70AA /* NewViewController.swift in Sources */,
 				7F7D31F32AB22BD300D995C7 /* ViewController.swift in Sources */,
 				7F7D31F12AB22BD300D995C7 /* AppDelegate.swift in Sources */,
 			);

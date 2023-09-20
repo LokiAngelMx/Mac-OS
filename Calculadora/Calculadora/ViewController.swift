@@ -75,8 +75,25 @@ class ViewController: NSViewController {
             default:
                 print("No existe el identificador")
             }
+            
+            if clickedButtonShouldNavigate(clickedButton) {
+                navigateToNewViewController()
+            }
         }
     }
+    
+    func clickedButtonShouldNavigate(_ button: NSBox) -> Bool {
+            // Aquí puedes poner la lógica para decidir si un botón debe llevar a una nueva pantalla o no.
+            // Por ejemplo, si un botón tiene una cierta etiqueta o clase, podrías decidir que debe llevar a una nueva pantalla.
+            return button.identifier == NSUserInterfaceItemIdentifier("buttonResult")
+        }
+    
+    func navigateToNewViewController() {
+            let storyboard = NSStoryboard(name: NSStoryboard.Name("Main"), bundle: nil)
+            if let newViewController = storyboard.instantiateController(withIdentifier: NSStoryboard.SceneIdentifier("NewViewController")) as? NewViewController {
+                self.presentAsSheet(newViewController)
+            }
+        }
     
     func selectOperation(_ operation: Operation) {
         currentOperation = operation

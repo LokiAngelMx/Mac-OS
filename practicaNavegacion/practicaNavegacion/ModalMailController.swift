@@ -7,8 +7,8 @@ class ModalMailController: NSViewController {
     }
     
     @IBAction func sentMail(_ sender: Any) {
-        if let modalViewMail = self.storyboard?.instantiateController(withIdentifier: "modalView") as? ModalCodeController {
-            self.presentAsModalWindow(modalViewMail)
+        if let modalSheetCode = self.storyboard?.instantiateController(withIdentifier: "sheetViewCode") as? sheetCodeController {
+            self.presentAsSheet(modalSheetCode)
         }
     }
 }
