@@ -9,12 +9,12 @@ struct Car: Codable {
     var precio: Double
     
     enum CodingKeys: String, CodingKey {
-    case id
-    case marca
-    case modelo
-    case ano
-    case llantas
-    case precio
+        case id
+        case marca
+        case modelo
+        case ano
+        case llantas
+        case precio
     }
     
     init(marca: String, modelo: String, ano: Int, llantas: String, precio: Double) {

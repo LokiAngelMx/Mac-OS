@@ -88,7 +88,7 @@ class ViewController: NSViewController {
             }
             
             self.presentAsSheet(modalSheet)
-            modalSheet.lbTitle.stringValue = "Agregar carro"
+            modalSheet.lbTitle.stringValue = "Editar carro"
             modalSheet.txtId.isEditable = false
             modalSheet.txtId.stringValue = selectedCar.id
             modalSheet.txtMarca.stringValue = selectedCar.marca
