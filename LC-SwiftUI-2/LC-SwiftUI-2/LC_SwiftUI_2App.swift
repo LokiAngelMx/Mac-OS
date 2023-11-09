@@ -4,7 +4,7 @@ import SwiftUI
 struct LC_SwiftUI_2App: App {
     var body: some Scene {
         WindowGroup {
-            FormView()
+            TodoList()
         }
     }
 }
