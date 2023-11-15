@@ -1,10 +1,10 @@
 import SwiftUI
 
 @main
-struct FormEstudianteApp: App {
+struct LC_NAVEGACIONApp: App {
     var body: some Scene {
         WindowGroup {
-            AlumnoListView()
+            MainView()
         }
     }
 }
