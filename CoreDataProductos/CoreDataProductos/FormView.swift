@@ -4,7 +4,7 @@ import SwiftUI
 struct FormView: View {
     @State private var nombre: String = ""
     @State private var descripcion: String = ""
-    // Los TextField spor defecto solo aceptan strings
+    // Los TextFields por defecto solo aceptan strings
     @State private var precio: String = ""
     var dbContext: NSManagedObjectContext
     var onSave: () -> Void
